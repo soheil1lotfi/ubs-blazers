@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data extracted from data/dataset.zip (the zip itself is tracked)
+data/*
+!data/dataset.zip
+
+# Generated artifacts: features, caches, forecasts, logs, TensorBoard runs
+outputs/
+runs/
